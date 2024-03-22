@@ -55,11 +55,11 @@ begin
     );
 
     process begin
-        address <= "1001";
+        address <= "1011";
         WAIT FOR 100ns;
-        address <= "1000";
+        address <= "0001";
         WAIT FOR 100ns;
-        address <= "1101";
+        address <= "1100";
         WAIT FOR 100ns;
         address <= "0101";
         WAIT FOR 100ns;
